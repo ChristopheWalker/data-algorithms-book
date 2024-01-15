@@ -1,98 +1,78 @@
-[Data Algorithms Book](http://shop.oreilly.com/product/0636920033950.do)
-======================
-* Author: Mahmoud Parsian (mahmoud.parsian@yahoo.com)
-* Title: [Data Algorithms: Recipes for Scaling up with Hadoop and Spark](http://shop.oreilly.com/product/0636920033950.do) 
-* This GitHub repository will host all source code and scripts for [Data Algorithms Book](http://shop.oreilly.com/product/0636920033950.do).
-* Publisher: [O'Reilly Media](http://shop.oreilly.com/product/0636920033950.do)
-* Published date: July 2015
+﻿## 飞污熊算法笔记 - python3实现
 
-Git Repository
-==============
-The book's codebase can also be downloaded from the git repository at:
-````
-git clone https://github.com/mahmoudparsian/data-algorithms-book.git
-````
+算法参考书籍列表，建议按照顺序阅读：
 
-[2nd Edition! Coming Out @ the End of 2021](./misc/data-algorithms-2nd-ed-cover.jpg)
-===========================================
+* 《算法图解》
+* 《啊哈算法》
+* 《算法导论》
+* 《人工智能算法图解》
+* 《labuladong的算法小抄》
 
-[Upgraded to Spark-3.1.2](http://spark.apache.org/releases/spark-release-3-1-2.html)
-=========================
+## 章节说明
 
+1. 【第一章】线性表数据结构：数组、链表、队列、栈。
+2. 【第二章】各类排序算法：（冒泡、插入、选择）、（快排、归并）、（桶、计数、基数）。
+3. 【第三章】各类搜索算法：二分查找、调表、散列表、哈希算法
+4. 【第四章】树数据结构：二叉树、红黑树、递归树、堆。
+5. 【第五章】图数据结构
+6. 【第六章】字符串匹配算法
+7. 【第七章】贪心算法
+8. 【第八章】分治算法
+9. 【第九章】回溯算法
+10. 【第十章】动态规划算法
+11. 【第十一章】高级数据结构和算法
+12. 【第十二章】AI算法
+13. 【第十三章】算法示例程序
+14. 【第十四章】LeetCode刷题记录
 
-[Production Version is Available NOW!](http://shop.oreilly.com/product/0636920033950.do)
-======================================
+## 作者的话
 
-[![Data Algorithms Book](./misc/da_book3.jpeg)](http://shop.oreilly.com/product/0636920033950.do)
+书中经典的算法示例使用python3语言实现。
 
-[Java 8's LAMBDA Expressions to Spark...](./misc/jdk8_and_lambda.md)
-================================================
+整个工程分为三个部分。第1部分是阅读经典算法书籍后自己的总结，作为基础算法部分。
+第2部分是人工智能AI算法示例，第3部分是自己在LeetCode上面的刷题总结。
 
-[Scala Spark Solutions](./src/main/scala/org/dataalgorithms)
-============================================================
+从2013年就开始写这个系列，写到动态规划后就停了，那段时间实在是太懒了。
+今年2020年开始决定继续把之前的捡起来，重新更新这个系列，做事情得有始有终，希望能把这个系列坚持写完。
 
-[How To Build using Apache's Ant](./misc/ant/README.md)
-===============================
+有任何问题都可以联系我：
 
-[How To Build using Apache's Maven](./misc/maven/README.md)
-===================================
+* Email：  yidao620@gmail.com
+* Blog：   https://www.xncoding.com/
+* GitHub： https://github.com/yidao620c
 
-[Machine Learning Algorithms using Spark](./src/main/java/org/dataalgorithms/machinelearning)
-=========================================
+**欢迎关注我的个人公众号“飞污熊”，我会定期分享一些自己的Python学习笔记和心得。**
 
-[Spark for Cancer Outlier Profile Analysis](http://hadoopsummit.uservoice.com/forums/344955-data-science-analytics-and-spark/suggestions/11664381-spark-solution-for-cancer-outlier-profile-analysis)
-====================================================
- 
-[Webinars and Presentions on Data Algorithms](./misc/webinars.md)
-=================================================================
+![公众号](https://github.com/yidao620c/python3-cookbook/raw/master/exts/wuxiong.jpg)
 
-[Introduction to MapReduce](https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/chapB09/charcount)
-===========================
- 
-[Bonus Chapters](./misc/bonus-chapters.md)
-================
- 
-[Author Book Signing](./misc/book-signing.md)
-=====================
+## How to Contribute
 
+You are welcome to contribute to the project as follow
 
-<!---
-your comment goes here
-and here
+* add/edit wiki
+* report/fix issue
+* code review
+* commit new feature
+* add testcase
 
-Work in Progress...
-===================
-Please note that this is a work in progress...
-![Data Algorithms Book Work In Progress](./misc/work_in_progress2.jpeg)
---> 
+Meanwhile you'd better follow the rules below
 
+* It's *NOT* recommended to submit a pull request directly to `master` branch. `develop` branch is more appropriate
+* Follow common Python coding conventions
+* Add the following [license](#license) in each source file
 
-[How To Run Spark/Hadoop Programs](./misc/run_spark/README.md)
-==================================
+## License
 
+(The Apache License)
 
-[Submit a Spark Job from Java Code](./misc/how-to-submit-spark-job-from-java-code.md)
-===========================================
+Copyright (c) 2013-2020 [Xiong Neng](https://www.xncoding.com/) and other contributors
 
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-How To Run Python Programs
-==========================
-To run python programs just call them with `spark-submit` together with the arguments to the program.
+       http://www.apache.org/licenses/LICENSE-2.0
 
-[My favorite quotes...](./misc/favorite_quotes/README.md)
-=========================================================
-
- 
-Questions/Comments
-==================
-* [View Mahmoud Parsian's profile on LinkedIn](http://www.linkedin.com/in/mahmoudparsian)
-* Please send me an email: <mahmoud.parsian@yahoo.com>
-* [Twitter: @mahmoudparsian](http://twitter.com/mahmoudparsian) 
-
-Thank you!
-````
-best regards,
-Mahmoud Parsian
-````
-
-[![Data Algorithms Book](./misc/large-image.jpg)](http://shop.oreilly.com/product/0636920033950.do)
+Unless required by applicable law or agreed to in writing, 
+software distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and limitations under the License.
